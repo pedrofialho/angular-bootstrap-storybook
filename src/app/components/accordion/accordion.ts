@@ -3,11 +3,11 @@ import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 import { CommonModule } from '@angular/common';
 
 @Component({
-	selector: 'ngbd-accordion',
+	selector: 'accordion',
 	standalone: true,
 	imports: [CommonModule, NgbAccordionModule],
 	templateUrl: './accordion.html',
 })
-export class NgbdAccordion {
+export class AccordionComponent {
 	panels = ['First', 'Second', 'Third'];
 }
